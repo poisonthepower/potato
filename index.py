@@ -51,7 +51,6 @@ def main() -> None:
     application.add_handler(CommandHandler("ping", ping))
     application.add_handler(CommandHandler("titanium", titanium))
     print ("bot started 😁")
-    application.run_polling()
 
 if __name__ == "__main__":
     main()
