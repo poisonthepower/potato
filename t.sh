@@ -3,7 +3,6 @@ apt install curl -y
 apt install nano -y
 apt install git -y
 sudo apt install software-properties-common -y
-add-apt-repository ppa:openjdk-r/ppa
 apt-get update
 
 mkdir ~/bin
