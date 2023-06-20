@@ -25,6 +25,8 @@ bash setup/android_build_env.sh
 cd
 mkdir ev 
 cd ev
+git config --global user.name kibria5 && git config --global user.email mdkibria687@gmail.com
+
 # Initialize local repository
 repo init -u https://github.com/Evolution-X/manifest -b tiramisu
 # Sync
