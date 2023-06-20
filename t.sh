@@ -1,8 +1,8 @@
-apt install sudo -y
-apt install curl -y
-apt install nano -y
-apt install git -y
-sudo apt install software-properties-common -y
+apt install sudo
+apt install curl
+apt install nano
+apt install git
+sudo apt install software-properties-common
 apt-get update
 
 mkdir ~/bin
